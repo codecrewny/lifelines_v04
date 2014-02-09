@@ -16,6 +16,9 @@ angular.module('mean').config(['$routeProvider',
         when('/contact', {
             templateUrl: 'views/contact.html'
         }).
+        when('/online', {
+            templateUrl: 'views/online.html'
+        }).
         otherwise({
             redirectTo: '/'
         });
