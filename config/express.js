@@ -38,7 +38,7 @@ module.exports = function(app, passport, db) {
     app.engine('html', consolidate[config.templateEngine]);
 
     // set .html as the default extension
-    app.set('view engine', 'html');
+    app.set('view engine', 'jade');
 
     // Set views path, template engine and default layout
     app.set('views', config.root + '/app/views');

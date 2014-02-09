@@ -4,20 +4,17 @@
 angular.module('mean').config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
-        when('/articles', {
-            templateUrl: 'views/articles/list.html'
-        }).
-        when('/articles/create', {
-            templateUrl: 'views/articles/create.html'
-        }).
-        when('/articles/:articleId/edit', {
-            templateUrl: 'views/articles/edit.html'
-        }).
-        when('/articles/:articleId', {
-            templateUrl: 'views/articles/view.html'
-        }).
         when('/', {
             templateUrl: 'views/index.html'
+        }).
+        when('/resources', {
+            templateUrl: 'views/resources.html'
+        }).
+        when('/chat', {
+            templateUrl: 'views/chat.html'
+        }).
+        when('/contact', {
+            templateUrl: 'views/contact.html'
         }).
         otherwise({
             redirectTo: '/'
@@ -28,6 +25,6 @@ angular.module('mean').config(['$routeProvider',
 //Setting HTML5 Location Mode
 angular.module('mean').config(['$locationProvider',
     function($locationProvider) {
-        $locationProvider.hashPrefix('!');
+        $locationProvider.html5Mode(true);
     }
 ]);
