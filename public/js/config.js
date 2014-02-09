@@ -11,14 +11,15 @@ angular.module('mean').config(['$routeProvider',
             templateUrl: 'views/resources.html',
             controller: 'WomenListCtrl'
         }).
-        when('/chat', {
-            templateUrl: 'views/chat.html'
-        }).
         when('/contact', {
             templateUrl: 'views/contact.html'
         }).
         when('/online', {
             templateUrl: 'views/online.html'
+        }).
+        when('/chat', {
+            templateUrl: 'views/chat.html',
+            controller: 'ChatController'
         }).
         otherwise({
             redirectTo: '/'
@@ -30,5 +31,6 @@ angular.module('mean').config(['$routeProvider',
 angular.module('mean').config(['$locationProvider',
     function($locationProvider) {
         $locationProvider.html5Mode(true);
+        $locationProvider.hashPrefix('!');
     }
 ]);

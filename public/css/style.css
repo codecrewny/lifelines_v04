@@ -12,7 +12,6 @@
 
 		body.loading {
 		}
-		
 			body.loading * {
 				-moz-transition: none !important;
 				-webkit-transition: none !important;
@@ -1417,11 +1416,15 @@
 
 
 
-
-
-
-/* Custom Styles */
+/*********************************************************************************/
+/* Custom styles                                                                   */
+/*********************************************************************************/
 #p-footer { text-align: center; }
-
-
 .input { background: #fff !important;}
+
+/*********************************************************************************/
+/* Chat styles                                                                   */
+/*********************************************************************************/
+.chat-window {
+	background-color: #fff !important;
+}
