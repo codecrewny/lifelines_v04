@@ -35,6 +35,5 @@ angular.module('mean').config(['$routeProvider',
 angular.module('mean').config(['$locationProvider',
     function($locationProvider) {
         $locationProvider.html5Mode(true);
-        $locationProvider.hashPrefix('!');
     }
 ]);
