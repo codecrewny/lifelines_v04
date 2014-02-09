@@ -1448,7 +1448,7 @@
 	padding: 120px;
 }
 
-#button-start {
+.button-start {
 	font-size: 20px;
 	margin: 0 0 0 0;
 }
@@ -1462,3 +1462,7 @@
 .main-text {
 	text-shadow: 3px 3px 7px #333;
 }
+
+li {list-style: none;}
+
+input { border: 1px solid grey;}

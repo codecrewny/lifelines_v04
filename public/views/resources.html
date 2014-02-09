@@ -1,10 +1,25 @@
-<section ng-controller="WomenListCtrl">
+<section ng-controller="WomenListCtrl" class="container">
 	  
+    
     <h1>Women's Centers</h1>
-      
-    <!-- <div ng-repeat="lawyer in lawyers"> -->
-        <ul ng-repeat="resource in women_resources" >
-          <li>{{lawyer}}</li>
+    <br />
+    <div class="row">
+      <div class="col-lg-8">
+        <input class="form-control" id="search" type="text" ng-model="query" />
+      </div>
+    <div class="col-lg-4">
+      <select class="form-control" ng-model="orderProp">
+            <option value="name">Brooklyn</option>
+            <option value="name">Bronx</option>
+            <option value="name">Queens</option>
+            <option value="name">Manhattan</option>
+            <option value="name">Staten Island</option>
+      </select>
+    </div>
+      <div ng-repeat="resource in women_resources ">
+        <ul ng-repeat="name in resource.data| filter:query | orderBy:orderProp">
+          <li>{{name[8]}}</li>
         </ul>
-    <!-- </div> -->
+    </div> 
+    </div>
 </section>
