@@ -12,7 +12,6 @@
 
 		body.loading {
 		}
-		
 			body.loading * {
 				-moz-transition: none !important;
 				-webkit-transition: none !important;
@@ -1422,12 +1421,18 @@
 
 
 
-
-
-
-/* Custom Styles */
+/*********************************************************************************/
+/* Custom styles                                                                   */
+/*********************************************************************************/
 #p-footer { text-align: center; }
+.input { background: #fff !important;}
 
+/*********************************************************************************/
+/* Chat styles                                                                   */
+/*********************************************************************************/
+.chat-window {
+	background-color: #fff !important;
+}
 .input { background: #fff !important;}
 
 .btn-block { padding: 1em;}
@@ -1457,4 +1462,3 @@
 .main-text {
 	text-shadow: 3px 3px 7px #333;
 }
-

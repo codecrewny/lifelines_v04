@@ -1,5 +1,9 @@
 /**
+<<<<<<< HEAD
  * @license AngularJS v1.2.12
+=======
+ * @license AngularJS v1.2.13-build.2242+sha.e645f7c
+>>>>>>> d970dde... Added public lib
  * (c) 2010-2014 Google, Inc. http://angularjs.org
  * License: MIT
  */

@@ -1,1 +1,16 @@
-<h1>This is the Chat!!!</h1>
+<section data-ng-controller="ChatController">
+	<div class="well">
+	  <form class="form-inline">
+	    Chat ID (avoid using real name if anonymity is a concern): <input type="text" ng-model="username" class="chat-window">
+	  </form>
+	  <div ng-cloak ng-repeat="message in messages">
+	    <em>{{message.from}}: </em>{{message.content}}
+	  </div><br/>
+	  <form class="form-inline" ng-submit="addMessage()">
+	    <input type="text" ng-model="message" class="chat-window" placeholder="Enter your message here and someone will be with you shortly...">
+	    <button class="btn" type="submit">
+	      <i class="icon-reply"> Submit Message</i>
+	    </button>
+	  </form>
+	</div>
+</section>
