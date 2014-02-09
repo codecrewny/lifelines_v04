@@ -1037,7 +1037,7 @@
 	}
 	
 	body {
-		padding-top: 3em;
+		padding-top: 0em;
 	}
 
 	#logo {
@@ -1414,3 +1414,14 @@
 			body.touch .poptrox-popup .closer {
 				opacity: 1.0 !important;
 			}
+
+
+
+
+
+
+/* Custom Styles */
+#p-footer { text-align: center; }
+
+
+.input { background: #fff !important;}
