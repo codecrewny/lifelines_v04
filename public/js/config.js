@@ -11,6 +11,10 @@ angular.module('mean').config(['$routeProvider',
             templateUrl: 'views/resources.html',
             controller: 'WomenListCtrl'
         }).
+        when('/lawyers', {
+            templateUrl: 'views/lawyers.html',
+            controller: 'LawyersListCtrl'
+        }).
         when('/chat', {
             templateUrl: 'views/chat.html'
         }).
