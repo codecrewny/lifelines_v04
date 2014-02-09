@@ -1,12 +1,10 @@
-<section data-ng-controller="LifeLinesController">
-	<div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p>You now have</p>
-        <ul>
-            <li>Womens</li>
-            <li>Express</li>
-            <li>Angular</li>
-            <li>Node</li>
+<section data-ng-controller="WomenListCtrl">
+	  
+    <h1>Women's Centers</h1>
+      
+    <div ng-repeat="resource in women_resources">
+        <ul ng-repeat="name in resource.data" >
+          <li>{{name[8]}}</li>
         </ul>
     </div>
 </section>
