@@ -33,6 +33,7 @@
 	h1,h2,h3,h4,h5,h6 {
 		font-weight: 900;
 		color: inherit;
+		text-align: center;
 	}
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -44,6 +45,9 @@
 		font-size: 2.25em;
 		letter-spacing: -2px;
 		line-height: 1.25em;
+
+
+
 	}
 		
 	strong, b {
@@ -1086,11 +1090,12 @@
 /*********************************************************************************/
 
 	#intro {
-		background: url('images/overlay.png'), url('../images/intro.jpg');
-		background-size: 256px 256px, cover;
+		background: url('../img/woman.jpg'), url('../images/intro.jpg');
+		background-size: cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
+		background-position: 0px -91px;
 		background-repeat: repeat, no-repeat;
+		maxwidth: 100%;
 	}
 
 /*********************************************************************************/
@@ -1423,5 +1428,33 @@
 /* Custom Styles */
 #p-footer { text-align: center; }
 
-
 .input { background: #fff !important;}
+
+.btn-block { padding: 1em;}
+
+#help-awaiting { 
+	font-size: 2em;
+	padding: 25px 0 25px 0;
+}
+
+.more-resources { 
+	background: #f0f0f0; 
+	background-size: cover;
+	padding: 120px;
+}
+
+#button-start {
+	font-size: 20px;
+	margin: 0 0 0 0;
+}
+
+.navbar-collapse { margin-top: 17px; }
+
+.navbar-nav a { font-size: .75em;}
+
+.navbar-brand { font-size: 1.5em; }
+
+.main-text {
+	text-shadow: 3px 3px 7px #333;
+}
+
