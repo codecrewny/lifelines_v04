@@ -8,7 +8,8 @@ angular.module('mean').config(['$routeProvider',
             templateUrl: 'views/index.html'
         }).
         when('/resources', {
-            templateUrl: 'views/resources.html'
+            templateUrl: 'views/resources.html',
+            controller: 'WomenListCtrl'
         }).
         when('/chat', {
             templateUrl: 'views/chat.html'
