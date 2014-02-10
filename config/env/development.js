@@ -3,7 +3,7 @@
 module.exports = {
     db: 'mongodb://lifelines:JT-FeYVVkRhxBGZuBlQ7fOuaj2n6F-e4RQN2DXktfpUq41aZAc@troup.mongohq.com:10092/app22064660',
     app: {
-        name: 'MEAN - A Modern Stack - Development'
+        name: 'Lifelines - Get Help from Someone Who Can Help'
     },
     facebook: {
         clientID: 'APP_ID',
