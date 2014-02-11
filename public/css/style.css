@@ -1093,7 +1093,7 @@
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: 0px -91px;
-		background-repeat: repeat, no-repeat;
+		background-repeat: no-repeat;
 		maxwidth: 100%;
 	}
 
