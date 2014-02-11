@@ -117,7 +117,7 @@
 	
 		section,
 		article {
-			margin-bottom: 3em;
+			margin-bottom: 1em;
 		}
 		
 		section > :last-child,
@@ -1468,6 +1468,8 @@ li {list-style: none;}
 
 input { border: 1px solid grey;}
 
-.hero-area {margin-top: 230px;}
+.hero-area {margin-top: 300px;}
 
 .navbar { margin-botton: 5px !important;}
+
+h2.help-awaiting { padding-bottom: 25px;}
