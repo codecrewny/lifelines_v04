@@ -1092,9 +1092,10 @@
 		background: url('../img/woman.jpg'), url('../images/intro.jpg');
 		background-size: cover;
 		background-attachment: fixed, fixed;
-		background-position: 0px -91px;
+		background-position: 0px -100px;
 		background-repeat: no-repeat;
 		maxwidth: 100%;
+		height: 590px;
 	}
 
 /*********************************************************************************/
@@ -1466,3 +1467,5 @@
 li {list-style: none;}
 
 input { border: 1px solid grey;}
+
+.hero-area {margin-top: 230px;}
