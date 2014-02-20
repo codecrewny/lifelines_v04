@@ -12,7 +12,7 @@
                 scope = $rootScope.$new();
 
                 IndexController = $controller('IndexController', {
-                    $scope: scope
+                  $scope: scope
                 });
             }));
 
