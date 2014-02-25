@@ -1,6 +1,14 @@
+# Lifelines App
+
+This app was created during the [Hack Upon a Cause](https://xogrouphackathon.eventbrite.com) hackathon by the [Code Crew](http://codecrew.co) team. This is an ongoing project that is maintained in order to explore technlogies.
+
+Project Tracking
+
+There is a [Pivotal Tracker Project](https://www.pivotaltracker.com/s/projects/1011696) where next steps can be tracked, if so desired. There is an intention to put together a roadmap on next steps.
+
 # MEAN Stack
 
-MEAN is a boilerplate that provides a nice starting point for [MongoDB](http://www.mongodb.org/), [Node.js](http://www.nodejs.org/), [Express](http://expressjs.com/), and [AngularJS](http://angularjs.org/) based applications. It is designed to give you quick and organized way to start developing of MEAN based web apps with useful modules like mongoose and passport pre-bundled and configured. We mainly try to take care of the connection points between existing popular frameworks and solve common integration problems.  
+MEAN is a boilerplate that provides a nice starting point for [MongoDB](http://www.mongodb.org/), [Node.js](http://www.nodejs.org/), [Express](http://expressjs.com/), and [AngularJS](http://angularjs.org/) based applications. It is designed to give you quick and organized way to start developing of MEAN based web apps with useful modules like mongoose and passport pre-bundled and configured. We mainly try to take care of the connection points between existing popular frameworks and solve common integration problems.
 
 ## Prerequisites
 * Node.js - Download and Install [Node.js](http://www.nodejs.org/download/). You can also follow [this gist](https://gist.github.com/isaacs/579814) for a quick and easy way to install Node.js and npm

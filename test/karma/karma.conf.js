@@ -33,7 +33,7 @@ module.exports = function(config) {
             'public/js/controllers/lawyersCtrl.js',
             'public/js/controllers/resourcesCtrl.js',
             'public/js/controllers/index.js',
-            'public/js/controllers/header.js',
+            'public/js/controllers/chat.js',
             'public/js/init.js',
             'test/karma/unit/**/*.js'
         ],
