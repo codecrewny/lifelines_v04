@@ -3,6 +3,7 @@
 	  <form class="form-inline">
 	    Chat ID (avoid using real name if anonymity is a concern): <input type="text" ng-model="username" class="chat-window">
 	  </form>
+		<p>{{totalViewers}} viewers are in the room</p>
 	  <div ng-cloak ng-repeat="message in messages">
 	    <em>{{message.from}}: </em>{{message.content}}
 	  </div><br/>
